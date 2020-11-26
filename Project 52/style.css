@@ -1,0 +1,52 @@
+h1 {
+    color:#E9967A;
+    border: solid;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link{
+    color:#008080;
+}
+
+a:visited{
+    color:#D2691E;
+}
+
+.header {
+    background-color:#808080;
+}
+
+.grid {
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.navigation {
+    padding-left: 1300px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.item {
+    padding: 25px;
+    margin: 25px;
+    position: relative;
+}
+
+.item:hover img{
+    transform: scale(1.5);
+}
+
+.item p {
+    position: absolute;
+}
+
+.body {
+    margin: 0px;
+}
